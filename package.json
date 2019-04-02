@@ -19,7 +19,8 @@
   "author": "Andy Wynyard",
   "license": "MIT",
   "dependencies": {
-    "typeface-roboto": "0.0.54"
+    "typeface-roboto": "0.0.54",
+    "typeface-raleway": "0.0.54"
   },
   "devDependencies": {
     "@storybook/addon-a11y": "^5.0.5",
