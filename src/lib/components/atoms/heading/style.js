@@ -1,8 +1,8 @@
-import 'typeface-raleway'
+// import 'typeface-raleway'
 import { css } from 'styled-components'
 
 const style = css`
-  font-family: 'Raleway';
+  /* font-family: 'Raleway'; */
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: 300;

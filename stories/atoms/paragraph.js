@@ -5,9 +5,14 @@ import { withNotes } from '@storybook/addon-notes'
 
 import Paragraph from '../../src/lib/components/atoms/paragraph'
 
+import './style.css'
 const paragraph = () => {
   const innerText = text('innerText', 'Hi there')
-  return <Paragraph>{innerText}</Paragraph>
+  return (
+    <div className="storybook-wrapper">
+      <Paragraph>{innerText}</Paragraph>
+    </div>
+  )
 }
 
 export default paragraph
