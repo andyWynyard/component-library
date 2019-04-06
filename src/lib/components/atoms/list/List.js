@@ -21,6 +21,7 @@ const List = styled(Wrapper)`
     props.tag === 'ul' ? 'circle inside' : 'decimal inside'};
   padding-left: 0;
   margin-top: 0;
+  margin-bottom: 2.5rem;
   & ul,
   & ol,
   & ol,
