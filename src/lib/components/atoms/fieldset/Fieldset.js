@@ -12,7 +12,11 @@ const Wrapper = styled.fieldset`
 const Fieldset = props => {
   const { children, className } = props
   const css = classNames('fieldset', className)
-  return <Wrapper className={css}>{children}</Wrapper>
+  return (
+    <Wrapper className={css} {...props}>
+      {children}
+    </Wrapper>
+  )
 }
 
 Fieldset.propTypes = {

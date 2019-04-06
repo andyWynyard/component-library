@@ -10,7 +10,11 @@ const Wrapper = styled.table`
 const Table = props => {
   const { children, className } = props
   const css = classNames('table', className)
-  return <Wrapper className={css}>{children}</Wrapper>
+  return (
+    <Wrapper className={css} {...props}>
+      {children}
+    </Wrapper>
+  )
 }
 
 Table.propTypes = {

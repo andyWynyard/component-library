@@ -18,7 +18,11 @@ const Wrapper = styled.td`
 const Td = props => {
   const { children, className } = props
   const css = classNames('td', className)
-  return <Wrapper className={css}>{children}</Wrapper>
+  return (
+    <Wrapper className={css} {...props}>
+      {children}
+    </Wrapper>
+  )
 }
 
 Td.propTypes = {

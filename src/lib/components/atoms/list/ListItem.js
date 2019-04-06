@@ -10,7 +10,11 @@ const Wrapper = styled.li`
 const ListItem = props => {
   const { children, className } = props
   const css = classNames('li', className)
-  return <Wrapper className={css}>{children}</Wrapper>
+  return (
+    <Wrapper className={css} {...props}>
+      {children}
+    </Wrapper>
+  )
 }
 
 ListItem.propTypes = {

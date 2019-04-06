@@ -12,7 +12,11 @@ const Wrapper = styled.legend`
 const Legend = props => {
   const { children, className } = props
   const css = classNames('legend', className)
-  return <Wrapper className={css}>{children}</Wrapper>
+  return (
+    <Wrapper className={css} {...props}>
+      {children}
+    </Wrapper>
+  )
 }
 
 Legend.propTypes = {

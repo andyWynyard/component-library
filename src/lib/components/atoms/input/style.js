@@ -39,6 +39,7 @@ const inputStyle = css`
   &[type='tel'],
   &[type='url'],
   &[type='password'] {
+    font-size: inherit;
     width: 100%;
     height: 38px;
     padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */

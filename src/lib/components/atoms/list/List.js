@@ -7,7 +7,11 @@ const Wrapper = props => {
   const { tag, className, children } = props
   const css = classNames('list', className)
   const Tag = tag
-  return <Tag className={css}>{children}</Tag>
+  return (
+    <Tag className={css} {...props}>
+      {children}
+    </Tag>
+  )
 }
 
 Wrapper.propTypes = {

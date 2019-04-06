@@ -18,7 +18,11 @@ const Wrapper = styled.th`
 const Th = props => {
   const { children, className } = props
   const css = classNames('th', className)
-  return <Wrapper className={css}>{children}</Wrapper>
+  return (
+    <Wrapper className={css} {...props}>
+      {children}
+    </Wrapper>
+  )
 }
 
 Th.propTypes = {

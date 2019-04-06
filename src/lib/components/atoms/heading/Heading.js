@@ -4,10 +4,15 @@ import styled from 'styled-components'
 import style from './style'
 import PropTypes from 'prop-types'
 
-const HTag = ({ level, children, className }) => {
+const HTag = props => {
+  const { level, children, className } = props
   const Tag = `h${level}`
   const css = classNames('title', className)
-  return <Tag className={css}>{children}</Tag>
+  return (
+    <Tag className={css} {...props}>
+      {children}
+    </Tag>
+  )
 }
 
 HTag.propTypes = {

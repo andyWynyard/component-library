@@ -5,10 +5,15 @@ import PropTypes from 'prop-types'
 
 import 'typeface-raleway'
 
-const TextWrapper = ({ children, className }) => {
+const TextWrapper = props => {
+  const { children, className } = props
   const css = classNames('text', className)
   const Tag = `p`
-  return <Tag className={css}>{children}</Tag>
+  return (
+    <Tag className={css} {...props}>
+      {children}
+    </Tag>
+  )
 }
 
 TextWrapper.propTypes = {

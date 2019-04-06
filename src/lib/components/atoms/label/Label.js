@@ -14,7 +14,7 @@ const Label = props => {
   const { children, htmlFor, className, inline } = props
   const css = classNames('label', className)
   return (
-    <Wrapper inline={inline} className={css} htmlFor={htmlFor}>
+    <Wrapper inline={inline} className={css} htmlFor={htmlFor} {...props}>
       {children}
     </Wrapper>
   )
