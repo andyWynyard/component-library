@@ -17,7 +17,6 @@ TextWrapper.propTypes = {
 }
 
 const Paragraph = styled(TextWrapper)`
-  /* font-family: 'Raleway'; */
   margin-top: 0;
   margin-bottom: 2.5rem;
 `

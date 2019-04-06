@@ -1,6 +1,7 @@
 import { css } from 'styled-components'
 
 const style = css`
+  margin-bottom: 1rem;
   display: inline-block;
   height: 38px;
   padding: 0 30px;

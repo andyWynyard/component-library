@@ -21,6 +21,7 @@ const inputStyle = css`
     border: 1px solid ${props => (props.primary ? '#33c3f0' : '#bbb')};
     cursor: pointer;
     box-sizing: border-box;
+    margin-bottom: 1rem;
 
     &:hover,
     &:focus {
@@ -38,6 +39,7 @@ const inputStyle = css`
   &[type='tel'],
   &[type='url'],
   &[type='password'] {
+    width: 100%;
     height: 38px;
     padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
     background-color: #fff;
@@ -48,6 +50,7 @@ const inputStyle = css`
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    margin-bottom: 1.5rem;
     &:focus {
       border: 1px solid #33c3f0;
       outline: 0;
