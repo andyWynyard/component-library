@@ -8,8 +8,14 @@ const list = () => {
   return (
     <div className={`storybook-wrapper`}>
       <List tag="ol">
+        <ListItem>Hi there</ListItem>
+        <ListItem>Hi there</ListItem>
         <List tag="ul">
           <ListItem>Hi there</ListItem>
+          <List tag="ol">
+            <ListItem>Hi there</ListItem>
+            <ListItem>Hi there</ListItem>
+          </List>
           <ListItem>Hi there</ListItem>
         </List>
         <ListItem>Hi there</ListItem>

@@ -1,6 +1,6 @@
 {
   "name": "@andy-wynyard/skeleton-react",
-  "version": "0.2.15",
+  "version": "0.2.16",
   "description": "Org NPM shared React modules for usage across projects. Only accessable/shareable within org.",
   "main": "build/index.js",
   "scripts": {
