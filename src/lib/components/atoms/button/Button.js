@@ -9,11 +9,12 @@ const StyledButton = styled.button`
   ${style}
 `
 
-const Button = ({ className, children, primary }) => {
+const Button = props => {
+  const { className, children, primary } = props
   const css = classNames('button', className)
 
   return (
-    <StyledButton className={css} primary={primary}>
+    <StyledButton className={css} primary={primary} {...props}>
       {children}
     </StyledButton>
   )

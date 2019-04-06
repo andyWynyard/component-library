@@ -1,5 +1,4 @@
 import React from 'react'
-// import 'typeface-raleway'
 import './style.css'
 
 import { text, select } from '@storybook/addon-knobs/react'

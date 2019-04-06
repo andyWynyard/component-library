@@ -4,7 +4,7 @@ const style = css`
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-
+  margin-bottom: 1rem;
   color: ${props => (props.primary ? '#fff' : '#555')};
   text-align: center;
   font-size: 11px;
