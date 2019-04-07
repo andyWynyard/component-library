@@ -14,6 +14,7 @@ import legendAndFieldset from './atoms/legendAndFieldset'
 import grid from './atoms/grid'
 
 import headingNotes from './atoms/markdown/heading.md'
+import gridNotes from './atoms/markdown/grid.md'
 import buttonNotes from './atoms/markdown/button.md'
 import paragraphNotes from './atoms/markdown/paragraph.md'
 import inputNotes from './atoms/markdown/input.md'
@@ -30,7 +31,7 @@ stories.addDecorator(checkA11y)
 
 stories
   .add('Button', button, { notes: buttonNotes })
-  .add('Grid', grid, { notes: buttonNotes })
+  .add('Grid', grid, { notes: gridNotes })
   .add('Heading', heading, { notes: headingNotes })
   .add('Input', input, { notes: inputNotes })
   .add('Label', label, { notes: labelNotes })

@@ -19,6 +19,12 @@ const Wrapper = styled.div`
   @media (min-width: 550px) {
     width: 80%;
   }
+
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
 `
 
 const Container = props => {
