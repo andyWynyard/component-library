@@ -2,15 +2,6 @@
 
 Based on `create-react-app` and uses the same basic principles.
 
-NPM components will not be able to be installed unless you have access.
+This is based on http://getskeleton.com/ and uses the same basic CSS but in https://www.styled-components.com/ form.
 
-### List of Components
-
-- Atoms
-  - Button
-  - Heading1
-  - Heading2
-  - Input
-  - Link
-- Molecules
-  - TODO
+Please visit https://wizardly-mirzakhani-de89b3.netlify.com/?path=/story/components-atoms--button for docs in storybook
