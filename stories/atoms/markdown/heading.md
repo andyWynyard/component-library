@@ -2,7 +2,7 @@
 
 `npm i @andy-wynyard/skeleton-react`
 
-`import { Button } from '@andy-wynyard/skeleton-react'`
+`import { H } from '@andy-wynyard/skeleton-react'`
 
 ## Props
 
@@ -10,4 +10,4 @@
 - `children` what it should say.
 - `className` (for specific styling)
 
-`<H level='1'>This is a Title</H>`
+`<H level={1}>This is a Title</H>`
